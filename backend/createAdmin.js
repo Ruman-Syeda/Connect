@@ -24,8 +24,8 @@ const createAdmin = async () => {
 
     // Get admin details from command line or use defaults
     const name = process.argv[2] || "Admin User"
-    const email = process.argv[3] || "admin@my.centennialcollege.ca"
-    const password = process.argv[4] || "admin123"
+    const email = process.argv[3] || "Rumi@my.centennialcollege.ca"
+    const password = process.argv[4] || "Ruman."
 
     // Create admin user
     const salt = await bcrypt.genSalt(10)

@@ -202,39 +202,40 @@ const eventManagers = [
 
 // Admin user - replace with your own email
 const admin = {
-  // name: "Admin User",
-  // email: "Rumi@my.centennialcollege.ca", // Change this to your email
-  // password: "Ruman.",
-  // role: "admin",
+  name: "Admin User",
+  email: "Rumi@my.centennialcollege.ca", // Change this to your email
+  password: "Ruman.",
+  
+  role: "admin",
 }
 
 // Sample communities
 const communities = [
-  // {
-  //   name: "Software Development",
-  //   description: "A community for software development students and professionals",
-  //   image: "/placeholder.svg?height=200&width=200",
-  // },
-  // {
-  //   name: "Business Administration",
-  //   description: "Connect with business students and alumni",
-  //   image: "/placeholder.svg?height=200&width=200",
-  // },
-  // {
-  //   name: "Healthcare Studies",
-  //   description: "For healthcare students and professionals",
-  //   image: "/placeholder.svg?height=200&width=200",
-  // },
-  // {
-  //   name: "Engineering Technology",
-  //   description: "Engineering students and graduates community",
-  //   image: "/placeholder.svg?height=200&width=200",
-  // },
-  // {
-  //   name: "Arts and Design",
-  //   description: "Creative arts and design community",
-  //   image: "/placeholder.svg?height=200&width=200",
-  // },
+  {
+    name: "Software Development",
+    description: "A community for software development students and professionals",
+    image: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    name: "Business Administration",
+    description: "Connect with business students and alumni",
+    image: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    name: "Healthcare Studies",
+    description: "For healthcare students and professionals",
+    image: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    name: "Engineering Technology",
+    description: "Engineering students and graduates community",
+    image: "/placeholder.svg?height=200&width=200",
+  },
+  {
+    name: "Arts and Design",
+    description: "Creative arts and design community",
+    image: "/placeholder.svg?height=200&width=200",
+  },
 ]
 
 // Sample events
